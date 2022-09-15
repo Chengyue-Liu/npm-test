@@ -1,0 +1,27 @@
+{
+        "name": "greet",
+        "version": "0.0.1",
+        "description": "Greetings PyPI package for testing purposes. References Hello World! package.",
+        "repository": "scantist/npm-greetings",
+        "author": {
+                "name": "Scantist",
+                "url": "https://github.com/scantist/npm-greetings"
+        },
+        "type": "module",
+        "exports": "./index.js",
+        "engines": {
+                "node": ">=14.16"
+        },
+        "scripts": {
+                "lint": "xo"
+        },
+        "files": [
+                "index.js"
+        ],
+        "dependencies": {
+                "@scantist/hello-world": "^0.0.2"
+        },
+        "devDependencies": {
+                "xo": "^0.51.0"
+        }
+}
